@@ -2,21 +2,21 @@
 
 _Round, flat, designer-friendly pseudo-3D engine_
 
-View complete documentation and live demos at [zzz.dog](https://zzz.dog).
+View complete documentation and live demos at [ssenee.githup.io](https://ssenee.githup.io).
 
 ## Install
 
 ### Download
 
-+ [zdog.dist.min.js](https://unpkg.com/zdog@1/dist/zdog.dist.min.js) minified, or
-+ [zdog.dist.js](https://unpkg.com/zdog@1/dist/zdog.dist.js) un-minified
++ [ssenee.dist.min.js](https://unpkg.com/ssenee@1/dist/ssenee.dist.min.js) minified, or
++ [ssenee.dist.js](https://unpkg.com/ssenee@1/dist/ssenee.dist.js) un-minified
 
 ### CDN
 
 Link directly to Zdog JS on [unpkg](https://unpkg.com).
 
 ``` html
-<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script src="https://unpkg.com/ssenee@1/dist/sseneeg.dist.min.js"></script>
 ```
 
 ### Package managers
@@ -27,13 +27,13 @@ Bower: `bower install zdog`
 
 ## Hello world demo
 
-Create 3D models with Zdog by adding shapes. See [Getting started](https://zzz.dog/getting-started) for a walk-through of this demo.
+Create 3D models with Ssenee by adding shapes. See [Getting started](https://ssenee.githup.io/getting-started) for a walk-through of this demo.
 
 ``` js
 let isSpinning = true;
 
-let illo = new Zdog.Illustration({
-  element: '.zdog-canvas',
+let illo = new Ssenee.Illustration({
+  element: '.ssenee-canvas',
   zoom: 4,
   dragRotate: true,
   // stop spinning when drag starts
@@ -43,7 +43,7 @@ let illo = new Zdog.Illustration({
 });
 
 // circle
-new Zdog.Ellipse({
+new Ssenee.Ellipse({
   addTo: illo,
   diameter: 20,
   translate: { z: 10 },
@@ -52,7 +52,7 @@ new Zdog.Ellipse({
 });
 
 // square
-new Zdog.Rect({
+new Ssenee.Rect({
   addTo: illo,
   width: 20,
   height: 20,
